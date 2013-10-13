@@ -1,0 +1,322 @@
+/*!
+Desarrollado por Izus
+ */
+ .center {
+ 	margin:0 auto;
+ }
+
+#col-height {
+	
+}
+
+ #attr {
+ 	float: left;
+    margin-left: -768px;
+    position: absolute;
+    margin-top: 43px;
+ }
+
+ #logo {
+ 	float: left;
+    margin-top: 24px;
+    margin-left: 7px;
+ }
+
+ #contact {
+ 	float: right;
+ 	margin-top:12px;
+ 	margin-right: -9px;
+ }
+
+ #contact h3 {
+ 	color: #F65910;
+    font: italic bold 13px/100% open sans;
+    text-transform: uppercase;
+ }
+
+ #contact p {
+ 	font: 17px/100% open sans;
+    margin-bottom: 31px;
+    margin-top: -4px;
+ }
+
+ #contact span {
+ 	font: italic 900 24px/100% open sans;
+    margin-left: 7px;
+ }
+
+ #navegacion {
+ 	background-color: #F7F6F3;
+    border-top: 1px solid #E2DED3;
+    box-shadow: 0px 3px 4px -1px #222222;
+    position: relative;
+    z-index: 1;
+ }
+
+ #navegacion a {
+ 	font: 600 14px/100% open sans;
+ 	color:#666666;
+    text-transform: uppercase;
+ }
+
+ #slide {
+ 	background-color: #234E4A;
+ }
+
+ .carousel-caption h1 {
+ 	color: #000000;
+    font: 28px/100% open sans;
+    text-shadow: none;
+    text-transform: uppercase;
+ }
+
+ #section-services {
+ 	margin-bottom: 60px;
+ }
+
+ #section-services p {
+    font: 14px/24px open sans;
+    width: 95%;
+ }
+
+.title {
+ 	font: italic 600 28px/100% montserrat;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 35px;
+ 	margin-bottom: 45px;
+ 	position: relative;
+ }
+
+.orange {
+ 	font: bold 15px/100% open sans;
+ 	color: #EA5920;
+ }
+
+#section-clients {
+	background: url("../img/back-clients.png") no-repeat scroll 0 336px rgba(0, 0, 0, 0);
+	height: 1033px;
+	position: relative;
+}
+
+.image-back {
+	
+}
+#section-about {
+	background-color: #234E4A;
+	margin-top: -115px;
+	padding-bottom: 140px;
+}
+
+#section-about .title {
+	text-align:left;
+	color:#ffffff;
+}
+
+#section-about p {
+	font:14px/24px open sans;
+ 	width: 96%;
+ 	color: #ffffff;
+}
+
+#section-about .large {
+	font: 31px/50px open sans;
+ 	color: #ffffff;
+}
+
+.galgo-about {
+	margin-left:-371px;
+}
+
+#section-about .slogan {
+	color: #FFFFFF;
+    font: 70px/100% alex brush;
+    margin-top: -240px;
+    text-align: center;
+    margin-left: 12px;
+}
+
+#section-about a {
+	float:right;
+	color:#ffffff;
+	font-family:open sans;
+}
+
+#section-about span {
+	color:#F65711;
+}
+
+#section-contact {
+	background-color: #1F4340;
+	color:#ffffff;
+	padding-bottom: 180px;
+	border-top: 2px solid #1C3C39;
+}
+
+#section-contact h2 {
+	color: #Ffffff;
+    font: italic bold 1.1em/100% open sans;
+    text-transform: uppercase;
+}
+
+#section-contact p {
+	font: 1.4em/100% open sans;
+    margin-top: 15px;
+}
+
+#section-contact span {
+	font: italic 900 2.1em/100% open sans;
+    margin-left: 18px;
+}
+
+#section-contact .schedule {
+	font:1.1em/166% open sans;
+}
+
+#section-about .gallery {
+	float:right;
+	border: 4px solid #ffffff;
+	margin-top:8px;
+}
+
+#footer {
+	background-color: #0E2523;
+	height: 55px;
+}
+
+#copyright {
+	color: #FFFFFF;
+    font-size: 0.8em;
+    position: relative;
+    right: 80px;
+    top: 19px;
+}
+
+.mail {
+	border-bottom:1px solid #666666;
+	padding-bottom:21px;
+}
+
+.mail a {
+	color: rgb(246, 89, 16);
+	font-style: italic;
+	font-weight: 600;
+}
+
+/*! Comienzo de Media Querys */
+
+@media (max-width: 1300px) {
+	#section-about .slogan {
+    	margin-top: -270px;
+    	margin-left: 110px;
+	}
+}
+
+@media (max-width: 1200px) {
+	#attr {
+		margin-left:-643px;
+	}
+	#copyright {
+	color: #FFFFFF;
+    font-size: 0.8em;
+    position: relative;
+    right: 48px;
+    top: 17px;
+    width: 175px;
+}
+	#section-contact {
+	padding-bottom: 1px;
+}
+	#section-about {
+		padding-bottom: 40px;
+	}
+
+}
+
+@media (max-width: 990px) {
+
+	#section-clients {
+		background: none;
+		height: auto;
+	}
+	#section-about {
+		margin-top: 30px;
+	}
+	.galgo-about {
+		display:none;
+	}
+	#section-about .slogan {
+    	margin-top: -40px;
+    	margin-bottom: 40px;
+    	margin-left: 1px;
+	}
+	#circle-center {
+		text-align:center;
+	}
+	#section-about .gallery {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		float: left;
+	}
+	#section-about a {
+		margin-top: 120px;
+	}
+	#section-about p {
+		font:2.3em/100% open sans;
+	}
+
+	#copyright {
+    right: -114px;
+    top: -23px;
+	}
+	.height {
+		height:55px;
+	}
+	
+}
+
+@media (max-width: 700px) {
+	#section-about p {
+		font:2em/100% open sans;
+	}
+	#section-about a {
+		font:30px/100% open sans;
+		margin-top: 10px;
+		float: left;;
+	}
+}
+
+@media (max-width: 660px) {
+	#section-about p {
+	float:left;
+	color:#ffffff;
+	font: 1em/100% open sans;
+	margin: -4px 0 13px;
+}
+
+
+}
+
+@media (max-width: 400px) {
+	#logo {
+		float:none;
+	}
+	#contact {
+		float:none;
+		text-align: center;
+	}
+	#section-about p {
+	float:right;
+	color:#ffffff;
+	font: 1em/100% open sans;
+}
+	#section-about a {
+		font:15px/100% open sans;
+		margin-top: 10px;
+		margin-left: -5px;
+	}
+	.mail a {
+		font:bold italic 0.7em/100% open sans;
+	}
+
+}
